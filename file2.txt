@@ -1,0 +1,83 @@
+public class homeWork_03 {
+    public static void main(String[] args) {
+        int a = 0;
+        int b = 1;
+        int c = 2;
+        int d = 3;
+        int e = 4;
+        int f = 5;
+        int g = 6;
+        int o = 7;
+        int l = 8;
+        int m = 9;
+
+        int sum = (a + b + c + d + e + f + g + o + l + m);
+
+        // System.out.println("sum " + sum);
+
+        int rezult = sum / 10;
+
+        System.out.println("rezult " + rezult);
+
+        //int restDiv = double sum / 10;
+        System.out.println("остаток от деления: " + ((double) sum / 10 - rezult));
+
+    }
+
+
+public class hw_task_02 {
+    public static void main(String[] args) {
+
+        int a = 1000;
+        int b = 500;
+
+        double sum = (a + b);
+        System.out.println("сумма " + sum);
+
+        double promo = sum / 10;
+        System.out.println("promo " + promo);
+
+        double rezult = sum - promo;
+        System.out.println("цена со скидкой " + rezult);
+
+    }
+}
+
+
+public class hw_task_3 {
+    public static void main(String[] args) {
+
+        int temp1 = 25;
+        int temp2 = 23;
+        int temp3 = 26;
+        int temp4 = 25;
+        int temp5 = 28;
+        int temp6 = 23;
+        int temp7 = 31;
+
+        int coutValues = 7;
+
+        double averageTemp;
+        averageTemp = ((double) temp1 + temp2 +temp3 + temp4 + temp5 + temp6 + temp7) / coutValues;
+
+        // System.out.println("Среднее значение температуры " + averageTemp);
+
+        System.out.printf("Среднее значение температуры: %.2f ", averageTemp);
+
+
+import java.util.Scanner;
+
+public class hw_task_4 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число ");
+
+        int var = scanner.nextInt();
+
+        System.out.println("Остаток от деления на 2: " + var % 2);
+        System.out.println("Остаток от деления на 3: " + var % 3);
+
+    }
+}
+
